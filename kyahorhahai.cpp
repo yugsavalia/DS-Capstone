@@ -15,8 +15,8 @@ struct Recipe {
     int noOfIng;
 
     // Constructor to initialize the recipe
-    Recipe(string n, vector<string> ing, string ins, string cat) 
-        : name(n), ingredients(ing), instructions(ins), category(cat) {}
+    Recipe(string n, vector<string> ing, string ins, string cat,int numing) 
+        : name(n), ingredients(ing), instructions(ins), category(cat),noOfIng(numing) {}
 };
 class RecipeManager{
     public:
