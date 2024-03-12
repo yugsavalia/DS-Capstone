@@ -18,9 +18,8 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_toolButton_clicked();
 
-    void on_comboBox_customContextMenuRequested(const QPoint &pos);
+    void on_findby_activated(int index);
 
 private:
     Ui::MainWindow *ui;
